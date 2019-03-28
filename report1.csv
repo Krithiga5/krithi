@@ -1,0 +1,11 @@
+Processed,Method,URI,Flags
+true,GET,https://gmail.com,Seed
+true,GET,https://gmail.com/robots.txt,Seed
+true,GET,https://gmail.com/sitemap.xml,Seed
+false,GET,https://www.google.com/gmail/,Out of Scope
+true,GET,https://gmail.com/,
+true,GET,https://gmail.com/a/,
+true,GET,https://gmail.com/mail?hl,
+true,GET,https://gmail.com/tasks/,
+false,GET,https://www.google.com/,Out of Scope
+false,GET,https://mail.google.com/tasks/,Out of Scope
