@@ -1,2 +1,0 @@
-# krithi
-test
