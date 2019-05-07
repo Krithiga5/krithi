@@ -10,7 +10,7 @@
 | --- | --- |
 | High | 0 |
 | Medium | 1 |
-| Low | 3 |
+| Low | 2 |
 | Informational | 0 |
 
 ## Alert Detail
@@ -30,7 +30,18 @@
   
   
   
-* URL: [http://testoperations.caddcentre.org/addcourseware.php](http://testoperations.caddcentre.org/addcourseware.php)
+* URL: [http://supportlivewireindiacom.test3/user?current=user/password](http://supportlivewireindiacom.test3/user?current=user/password)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-Frame-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user?current=user/password](http://supportlivewireindiacom.test3/user?current=user/password)
   
   
   * Method: `GET`
@@ -41,7 +52,84 @@
   
   
   
-Instances: 1
+* URL: [http://supportlivewireindiacom.test3/user/login?destination=node/454](http://supportlivewireindiacom.test3/user/login?destination=node/454)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Frame-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user](http://supportlivewireindiacom.test3/user)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Frame-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/issue-courseware](http://supportlivewireindiacom.test3/issue-courseware)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Frame-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user/login?destination=node/454](http://supportlivewireindiacom.test3/user/login?destination=node/454)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-Frame-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user/password](http://supportlivewireindiacom.test3/user/password)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Frame-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user/password](http://supportlivewireindiacom.test3/user/password)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-Frame-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user](http://supportlivewireindiacom.test3/user)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-Frame-Options`
+  
+  
+  
+  
+Instances: 9
   
 ### Solution
 <p>Most modern Web browsers support the X-Frame-Options HTTP header. Ensure it's set on all web pages returned by your site (if you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. ALLOW-FROM allows specific websites to frame the web page in supported web browsers).</p>
@@ -70,7 +158,7 @@ Instances: 1
   
   
   
-* URL: [http://testoperations.caddcentre.org/addcourseware.php](http://testoperations.caddcentre.org/addcourseware.php)
+* URL: [http://supportlivewireindiacom.test3/user/password](http://supportlivewireindiacom.test3/user/password)
   
   
   * Method: `GET`
@@ -81,7 +169,18 @@ Instances: 1
   
   
   
-* URL: [http://testoperations.caddcentre.org/robots.txt](http://testoperations.caddcentre.org/robots.txt)
+* URL: [http://supportlivewireindiacom.test3/user](http://supportlivewireindiacom.test3/user)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/node?destination=node](http://supportlivewireindiacom.test3/node?destination=node)
   
   
   * Method: `GET`
@@ -92,7 +191,18 @@ Instances: 1
   
   
   
-* URL: [http://testoperations.caddcentre.org/sitemap.xml](http://testoperations.caddcentre.org/sitemap.xml)
+* URL: [http://supportlivewireindiacom.test3/user/login?destination=node/454](http://supportlivewireindiacom.test3/user/login?destination=node/454)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user/login?destination=node/454](http://supportlivewireindiacom.test3/user/login?destination=node/454)
   
   
   * Method: `GET`
@@ -103,7 +213,106 @@ Instances: 1
   
   
   
-Instances: 3
+* URL: [http://supportlivewireindiacom.test3/user?current=user/password](http://supportlivewireindiacom.test3/user?current=user/password)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user?current=user/password](http://supportlivewireindiacom.test3/user?current=user/password)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/default/files/css/font-awesome.css](http://supportlivewireindiacom.test3/sites/default/files/css/font-awesome.css)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/](http://supportlivewireindiacom.test3/)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sitemap.xml](http://supportlivewireindiacom.test3/sitemap.xml)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/issue-courseware](http://supportlivewireindiacom.test3/issue-courseware)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user/password](http://supportlivewireindiacom.test3/user/password)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/user](http://supportlivewireindiacom.test3/user)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/node?destination=node](http://supportlivewireindiacom.test3/node?destination=node)
+  
+  
+  * Method: `POST`
+  
+  
+  * Parameter: `X-XSS-Protection`
+  
+  
+  
+  
+Instances: 14
   
 ### Solution
 <p>Ensure that the web browser's XSS filter is enabled, by setting the X-XSS-Protection HTTP response header to '1'.</p>
@@ -125,49 +334,6 @@ Instances: 3
   
   
   
-### Cookie No HttpOnly Flag
-##### Low (Medium)
-  
-  
-  
-  
-#### Description
-<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>
-  
-  
-  
-* URL: [http://testoperations.caddcentre.org/addcourseware.php](http://testoperations.caddcentre.org/addcourseware.php)
-  
-  
-  * Method: `GET`
-  
-  
-  * Parameter: `PHPSESSID`
-  
-  
-  * Evidence: `Set-Cookie: PHPSESSID`
-  
-  
-  
-  
-Instances: 1
-  
-### Solution
-<p>Ensure that the HttpOnly flag is set for all cookies.</p>
-  
-### Reference
-* http://www.owasp.org/index.php/HttpOnly
-
-  
-#### CWE Id : 16
-  
-#### WASC Id : 13
-  
-#### Source ID : 3
-
-  
-  
-  
 ### X-Content-Type-Options Header Missing
 ##### Low (Medium)
   
@@ -179,7 +345,7 @@ Instances: 1
   
   
   
-* URL: [http://testoperations.caddcentre.org/addcourseware.php](http://testoperations.caddcentre.org/addcourseware.php)
+* URL: [http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/js/foundation3/foundation.min.js?pqew54](http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/js/foundation3/foundation.min.js?pqew54)
   
   
   * Method: `GET`
@@ -190,7 +356,216 @@ Instances: 1
   
   
   
-Instances: 1
+* URL: [http://supportlivewireindiacom.test3/sites/all/modules/colorbox/js/colorbox.js?pqew54](http://supportlivewireindiacom.test3/sites/all/modules/colorbox/js/colorbox.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/js/responsiveslides.js?pqew54](http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/js/responsiveslides.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/misc/ajax.js?v=7.43](http://supportlivewireindiacom.test3/misc/ajax.js?v=7.43)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/misc/drupal.js?pqew54](http://supportlivewireindiacom.test3/misc/drupal.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/robots.txt](http://supportlivewireindiacom.test3/robots.txt)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/js/foundation/foundation.min.js?pqew54](http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/js/foundation/foundation.min.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/modules/clientside_validation/jquery-validate/jquery.validate.js?pqew54](http://supportlivewireindiacom.test3/sites/all/modules/clientside_validation/jquery-validate/jquery.validate.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/modules/captcha/captcha/captcha.js?pqew54](http://supportlivewireindiacom.test3/sites/all/modules/captcha/captcha/captcha.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/js/scripts.js?pqew54](http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/js/scripts.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/modules/panels/js/panels.js?pqew54](http://supportlivewireindiacom.test3/sites/all/modules/panels/js/panels.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/css/foundation3/foundation.css?pqew54](http://supportlivewireindiacom.test3/sites/all/themes/flat-metro/css/foundation3/foundation.css?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/libraries/colorbox/jquery.colorbox-min.js?pqew54](http://supportlivewireindiacom.test3/sites/all/libraries/colorbox/jquery.colorbox-min.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/modules/colorbox/styles/default/colorbox_style.js?pqew54](http://supportlivewireindiacom.test3/sites/all/modules/colorbox/styles/default/colorbox_style.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/default/files/logo.png](http://supportlivewireindiacom.test3/sites/default/files/logo.png)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/misc/jquery.once.js?v=1.2](http://supportlivewireindiacom.test3/misc/jquery.once.js?v=1.2)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/modules/jreject/jReject/js/jquery.reject.js?pqew54](http://supportlivewireindiacom.test3/sites/all/modules/jreject/jReject/js/jquery.reject.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/libraries/jstorage/jstorage.min.js?pqew54](http://supportlivewireindiacom.test3/sites/all/libraries/jstorage/jstorage.min.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/themes/zurb-foundation/js/vendor/custom.modernizr.js?pqew54](http://supportlivewireindiacom.test3/sites/all/themes/zurb-foundation/js/vendor/custom.modernizr.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+* URL: [http://supportlivewireindiacom.test3/sites/all/themes/zurb-foundation/js/foundation.min.js?pqew54](http://supportlivewireindiacom.test3/sites/all/themes/zurb-foundation/js/foundation.min.js?pqew54)
+  
+  
+  * Method: `GET`
+  
+  
+  * Parameter: `X-Content-Type-Options`
+  
+  
+  
+  
+Instances: 34
   
 ### Solution
 <p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
